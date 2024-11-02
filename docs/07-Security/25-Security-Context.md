@@ -17,7 +17,7 @@ In this section, we will take a look at security context
  ![ksec](../../images/ksec.PNG)
 
 ## Security Context
-- To add security context on the container and a field called **`securityContext`** under the spec section.
+- To add security context on the pod and a field called **`securityContext`** under the spec section.
   ```
   apiVersion: v1
   kind: Pod
